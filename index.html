@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" crossorigin="anonymous" />
+    <title>Dishcovery </title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <i class="fas fa-utensils"></i>
+                <h1>Dishcovery</h1>
+            </div>
+            <div class="nav-links">
+                <a href="#featured" class="nav-link active">Featured</a>
+                <a href="#categories" class="nav-link">Categories</a>
+                <a href="#about" class="nav-link">About</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <div class="search-container">
+                    <h2>Discover Your Next Favorite Dish</h2>
+                    <p>Explore thousands of recipes from around the world</p>
+                    <form class="search-form">
+                        <div class="search-wrapper">
+                            <i class="fas fa-search search-icon"></i>
+                            <input type="text" placeholder="Try 'chicken curry' or 'chocolate cake'..." class="searchBox" />
+                            <button type="submit" class="searchBtn">Search Recipes</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="featured-categories">
+                    <button class="category-pill" data-category="Breakfast">
+                        <i class="fas fa-coffee"></i> Breakfast
+                    </button>
+                    <button class="category-pill" data-category="Main Course">
+                        <i class="fas fa-drumstick-bite"></i> Main Course
+                    </button>
+                    <button class="category-pill" data-category="Dessert">
+                        <i class="fas fa-ice-cream"></i> Dessert
+                    </button>
+                    <button class="category-pill" data-category="Vegetarian">
+                        <i class="fas fa-leaf"></i> Vegetarian
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section class="featured-section" id="featured">
+            <div class="section-header">
+                <h2>Featured Collections</h2>
+                <p>Curated recipes for every occasion</p>
+            </div>
+            <div class="featured-grid">
+                <div class="featured-card breakfast">
+                    <div class="overlay">
+                        <h3>Breakfast Delights</h3>
+                        <p>Start your day right</p>
+                    </div>
+                </div>
+                <div class="featured-card dinner">
+                    <div class="overlay">
+                        <h3>Dinner Specials</h3>
+                        <p>Perfect evening meals</p>
+                    </div>
+                </div>
+                <div class="featured-card dessert">
+                    <div class="overlay">
+                        <h3>Sweet Treats</h3>
+                        <p>Indulge in desserts</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="recipes-section">
+            <div class="recipe-container">
+                <h2>Start your dishcovery journey...</h2>
+            </div>
+        </section>
+
+        <div class="recipe-details">
+            <button type="button" class="recipe-close-btn">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="recipe-details-content"></div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Dishcovery </h3>
+                <p>Discover the joy of cooking with our curated recipes from around the world.</p>
+            </div>
+           
+            
+        </div>
+        <div class="footer-bottom">
+            <p>© 2024 Dishcovery . Made with <i class="fas fa-heart"></i> for food lovers.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
