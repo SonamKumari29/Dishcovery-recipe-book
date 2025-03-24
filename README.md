@@ -3,7 +3,7 @@
 
 **Dishcovery** is a modern recipe discovery platform built using **React + Vite**. It allows users to search for recipes, explore different meal categories, and get detailed cooking instructions using **TheMealDB API**.  
 
-🚀 **Live Demo:** [Dishcovery](https://dishcovery-recipe-book.netlify.app/)   
+🚀 **Live Demo:** [Dishcovery](https://dishcovery-recipe-finder.netlify.app/)   
 
 ---
 
